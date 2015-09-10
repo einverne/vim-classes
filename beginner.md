@@ -29,6 +29,7 @@ Pen to the page
 	o - Enter insert mode on the next line
 	O - enter insert mode on the above line
 	C - Delete from cursor to end of line and begin insert
+	cc - Delete lines and start insert
 
 Changing modes
 ===
@@ -36,7 +37,7 @@ Changing modes
 	Insert -> Normal : ESC/CTRL [
 	Insert -> Command : (Insert -> Normal) -> :
 
-	Normal -> COmmand : :
+	Normal -> Command : :
 	Normal -> Insert Insert : iIsScCoO
 	Command -> Normal : Enter
 

@@ -39,6 +39,7 @@ Common Edit commands
 ====================
 
 	d - Delete: [range]d<motion>
+		dw  - delete current word
 		dd  - delete current line
 		dj  - delete current and next line (j = down)
 		2dj - delete current and 2 lines downward
@@ -55,8 +56,7 @@ Common Edit commands
 		g~iw - Toggle case of entire word under cursor
 			tr|ue -> g~iw -> TRUE
 	
-	p - Paste 
-	
+	p - Paste after cursor
 
 Registers
 =========
